@@ -26,16 +26,13 @@ function LengthConverter(valNum) {
   convertBtn.addEventListener("click", function() {
       let baseValue = inputEl.value
       
-      lengthEl.textContent = `${baseValue} meters = ${ Number(baseValue * meterToFeet).toFixed(3)} feet | 
-      ${(baseValue)} feet = ${ Number(baseValue / meterToFeet).toFixed(3)}meters` 
+      lengthEl.textContent = "NON STA ROMPERE I COGLIONI"
 
 
-      lengthElFirst.textContent = `${baseValue} liters = ${ Number(baseValue * literToGallon).toFixed(3)} gallons | 
-      ${(baseValue)} gallons = ${Number(baseValue / literToGallon).toFixed(3)} liters` 
+      lengthElFirst.textContent = "NON STA ROMPERE I COGLIONI"
 
 
-      lengthElSecond.textContent = `${baseValue} kilos = ${Number(baseValue * kiloToPound).toFixed(3)} pounds | 
-      ${(baseValue)} pounds = ${Number(baseValue / kiloToPound).toFixed(3)} kilos` 
+      lengthElSecond.textContent = "NON STA ROMPERE I COGLIONI"
  
  
   })
